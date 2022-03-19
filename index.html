@@ -1,0 +1,74 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Testimonial</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="Connor.jpg">
+                        </div>
+                        <p class="description">
+                          Stumped on homework or need assistance on a particular topic? You can find help at your Tutoru. This tutoring app is rapidly growing. And many people are enjoying the benefits that come with it. With the advancement of computer technology, finding a tutor shouldn’t be hard. You no longer have to hire a tutor to come to your home physically, with online tutoring sites, you can work with one at any time of the day or night for that matter. And now with the availability of smartphones, you can get help with your homework even while you are on the go.
+                        </p>
+                        <h3 class="title">Connor</h3>
+                        <small class="post">- System Engineer </small>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="Sarah.jpg">
+                        </div>
+                        <p class="description">
+                          Aside from being an online tutoring platform, Tutoru also helps the teachers and learners to connect via the internet and in person. It is easy for a student to find the best tutor for themselves by looking at their profile.
+                        </p>
+                        <h3 class="title">Sarah</h3>
+                        <small class="post">- Product Manager </small>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="Brian.jpg">
+                        </div>
+                        <p class="description">
+                          If you are looking for an app that comes with useful functions and features, look no further than Tutoru. Whether you are a teacher looking to start a tutoring business, or you are a student that is looking for help to do your assignments, this useful app has you covered
+                        </p>
+                        <h3 class="title">Brian</h3>
+                        <small class="post">- Chemical Engineer </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#testimonial-slider").owlCarousel({
+                items:2,
+                itemsDesktop:[1000,2],
+                itemsDesktopSmall:[990,2],
+                itemsTablet:[768,1],
+                pagination:true,
+                navigation:false,
+                navigationText:["",""],
+                slideSpeed:1000,
+                autoPlay:true
+            });
+        });
+    </script>
+
+</body>
+</html>
